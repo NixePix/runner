@@ -9,6 +9,8 @@
 
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="main.css">
+        <script src="movement.js"></script>
+        <script src="jquery-1.11.3.js"></script>
     </head>
     <body>
       <div id="stage">
@@ -19,4 +21,8 @@
       <script src="road.js"></script>
       <script src="tick.js"></script>
     </body>
+<script>
+    player.assign_element($("#player"));
+    player.on_tick();
+</script>
 </html>

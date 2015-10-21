@@ -41,7 +41,6 @@ var roadWorks = (function() {
   function onTick() {
 
     block.move();
-    
 
   }
   

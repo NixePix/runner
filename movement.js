@@ -18,8 +18,8 @@ var player = function() {
          element.offset({ top: this.current_y, left: this.current_x } );
       },
       on_tick: function() {
-         move_up(-2);
-         update();
+         this.move_up(-2);
+         this.update();
       }
    }
 }();

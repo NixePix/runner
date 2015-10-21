@@ -7,6 +7,7 @@ function tick() {
   //console.log(diff);
 
   roadWorks.onTick();
+  //player.on_tick();
 
 }
 
